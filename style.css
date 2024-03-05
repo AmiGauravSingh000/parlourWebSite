@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     text-decoration: none;
 }
 body{
@@ -46,7 +46,69 @@ body{
     font-size: 19px;
     font-weight: bold;
 }
+.header .navbar ul li a{
+    color: #000;
+    padding: 7px;
+}
 .header .navbar ul li:hover{
     background:  rgb(78, 194, 101);
     border-radius: 5px;
 }
+/* Start main sectoin */
+.main{
+    /* border: 2px solid black; */
+    position: relative;
+    border-radius: 5px;
+    background-color: bisque;
+    margin-top: 10%;
+    margin-left: 5%;
+    max-width: 1200px;
+}
+.main .text{
+    padding: 3%;
+}
+.main .text p{
+    padding: 15px;
+    font-size: 20px;
+}
+.main .text h1{
+    font-weight: 700;
+    font-size: 35px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.main .img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 292px;
+    width: 490px;
+    border-radius: 0 5px 5px 0;
+}
+.main .text .info{
+    display: block;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.main .btns{
+    display: inline-block;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+.btns .btn1{
+    font-weight: 500;
+    color: #fff;
+    padding: 8px;
+    background-color: rgb(233, 116, 108);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btns .btn2{
+    font-weight: 400;
+    color: #000;
+    padding: 8px;
+    margin-left: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+/* End main sectoin */
