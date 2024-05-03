@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img img{
+    border-radius: 0 0 20px 20px;
+    box-shadow:0 15px 12px rgb(138, 133, 133) ;
+}
+
+.h1 h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(56, 55, 57);
+    font-size: 54px;
+    padding: 9px;
+    border-radius: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(242, 145, 145);
+    box-shadow:0 0 12px 8px rgb(243, 240, 240);
+}
+
+.second {
+    /* background-color: #dc9393; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second .sub {
+    margin-top: 1.5%;
+}
+
+.second .title {
+    margin-top: 35px;
+    margin-bottom: 8%;
+    background-color: #fff;
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 2.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    margin-bottom: 22px;
+}
+
+.title p {
+    font-size: 25px;
+    font-weight: 200;
+    color: rgb(138, 133, 133);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+    margin-left: 40px;
+}
+.sec-icon{
+    margin-left: 18px;
+}
+.icon .text {
+    position: relative;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+.text-1{
+    position: relative;
+    margin-top: 15px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    right: 23px;
+}
+.text-2{
+    position: relative;
+    margin-top: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    right: 32px;
+    font-size: 20px;
+}
+
+/* section third start */
+.third{
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+.left-item .h4{
+    /* background-color: blue; */
+    margin-top: 6%;
+    padding: 10px;
+}
+.h4 h4{
+    color: rgb(78, 80, 82);
+    font-size: 2.5rem;
+    /* font-weight: 700; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left-item .h2{
+    color: rgb(78, 80, 82);
+    padding: 9px;
+}
+.h2 h2{
+    font-size: 2.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -15px;
+}
+.left-item .text-item{
+    margin: 20px 12px;
+}
+.text-item p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: 300;
+    color: rgb(75, 73, 73);
+    line-height: 1.5em;
+}
+.right-item .imag{
+    margin-right: -20px;
+    border: 2px solid blue;
+}
+/* .imag img{
+    border-radius: 4px;
+} */
+/* section third end */
+
+/* section forth start */
+.forth{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3%;
+}
+.forth .f-left-m{
+    margin-top: -49px;
+    padding-right: 5px;
+}
+.f-left-m img{
+    border: 2px solid blue;
+}
+.f-right-text{
+    margin-left: 12px;
+}
+.f-right-text .h2{
+    margin: 9px;
+}
+.f-right-text h2{
+    font-size: 39px;
+    color: rgb(78, 80, 82);
+    font-weight: 600;
+}
+.f-right-text h2 span{
+    color: rgb(78, 80, 82);
+}
+.f-text{
+    margin-left: 9px;
+    margin-top: 25px;
+}
+.f-text p{
+    font-size: 1.3rem;
+    margin-top: 10px;
+    font-weight: 300;
+    color: rgb(75, 73, 73);
+    line-height: 1.5em;
+}
+.f-text .ff{
+    margin-top: 5px;
+}
+/* section forth end */
