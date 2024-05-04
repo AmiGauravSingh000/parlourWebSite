@@ -163,16 +163,27 @@
 }
 .f-text{
     margin-left: 9px;
-    margin-top: 25px;
+    margin-top: 22px;
 }
 .f-text p{
     font-size: 1.3rem;
-    margin-top: 10px;
+    margin-top: -2px;
     font-weight: 300;
     color: rgb(75, 73, 73);
     line-height: 1.5em;
 }
-.f-text .ff{
-    margin-top: 5px;
+.f-btn{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.f-btn button{
+    font-size: 1rem;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+.f-btn button:hover{
+    cursor: pointer;
+    background-color: aqua;
 }
 /* section forth end */
