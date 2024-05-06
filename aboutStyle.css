@@ -117,6 +117,7 @@
 }
 .left-item .text-item{
     margin: 20px 12px;
+    
 }
 .text-item p{
     font-size: 1.3rem;
@@ -125,9 +126,12 @@
     color: rgb(75, 73, 73);
     line-height: 1.5em;
 }
+.text-item .sec-p{
+    margin-top: 2px;
+}
 .right-item .imag{
     margin-right: -20px;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 /* .imag img{
     border-radius: 4px;
@@ -141,14 +145,15 @@
     margin: 3%;
 }
 .forth .f-left-m{
-    margin-top: -49px;
+    margin-top: -45px;
     padding-right: 5px;
 }
-.f-left-m img{
+/* .f-left-m img{
     border: 2px solid blue;
-}
+} */
 .f-right-text{
     margin-left: 12px;
+    flex-wrap: wrap;
 }
 .f-right-text .h2{
     margin: 9px;
@@ -173,8 +178,9 @@
     line-height: 1.5em;
 }
 .f-btn{
-    margin-top: 15px;
+    margin-top: 18px;
     margin-left: 10px;
+    
 }
 .f-btn button{
     font-size: 1rem;
@@ -187,3 +193,93 @@
     background-color: aqua;
 }
 /* section forth end */
+/* section fifth start */
+.fifth{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+.fifth .fi-left{
+    margin-top: 2%;
+    padding: 1%;
+}
+.fi-left .fi-text{
+    margin-top: -23px;
+    /* border: 1px solid black; */
+    padding: 7px;
+}
+.fi-text .h2{
+    padding: 2px;
+    margin-bottom: 4px;
+}
+.fi-text h3{
+    font-size: 35px;
+    color: rgb(78, 80, 82);
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fi-text .h2 h2{
+    font-size: 39px;
+    color: rgb(78, 80, 82);
+    font-weight: 600;
+}
+.fi-text .left-p{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: rgb(75, 73, 73);
+    line-height: 2.5rem;
+    margin-top: 11px;
+}
+.left-p .sec{
+    margin-top: -3px;
+}
+.fifth .fi-right{
+    margin-top: -50px;
+}
+/* section fifth end */
+/* section sixth start */
+.sixth{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin: 2%;
+    height: 400px;
+    background: #e0e0e0;
+    padding: 30px;
+}
+.s-left{
+    /* position: relative; */  
+    /* border: 1px solid black; */
+    margin: 10px  34px;
+    box-shadow:0 15px 12px rgb(138, 133, 133) ;
+    background-color: white;
+    width: 45%;
+}
+.s-left .s-h2 h2{
+    text-align: center;
+    font-size: 29px;
+    margin: 43px;
+    font-weight: 800;
+}
+.s-left .s-p p{
+    text-align: center;
+    font-size: 23px;
+    color: rgb(75, 73, 73);
+    font-weight: 300;
+}
+.s-right{
+    /* border: 1px solid black; */
+    margin: 10px  34px;
+    background-color: white;
+    box-shadow:0 15px 12px rgb(138, 133, 133) ;
+    width: 45%;
+}
+.s-right .s-h1{
+    margin: 25px;
+    text-align: center;
+}
+.s-right .r-p{
+    margin-top: 43px;
+}
+/* section sixth end */
