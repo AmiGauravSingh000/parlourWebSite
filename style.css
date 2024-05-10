@@ -9,7 +9,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(145deg, rgb(159, 205, 224), rgb(220, 248, 169));
+    background-image: linear-gradient(135deg, rgb(159, 205, 224), rgb(220, 248, 169));
 }
 /* start header section */
 .header{
@@ -294,8 +294,60 @@ body{
     border: 1px solid black;
     border-radius: 0 7px 0 7px;
 }
-button:hover{
+.button-container button:hover{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     background-color: rgb(116, 217, 15);
 }
 /* Registration form Section end */
+
+/* Testimonial Slider section start */
+.w-container{
+    background-color: rgb(131, 131, 229);
+    height: 650px;
+    width: 100%;
+}
+.wrapper{
+    background-color: #ffffff;
+    height: 400px;
+    width: 80vw;
+    max-width: 41em;
+    max-height: 25em;
+    border-radius: 0.6em;
+    display: flex;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+.testimonial-container{
+    border: 1px solid black;
+    width: 85%;
+    height: 15%;
+    position: relative;
+    margin: auto;
+    padding: 1.8em, 1.2em;
+}
+.wrapper button{
+    font-size: 1.8em;
+    width: 2.2em;
+    height: 2.2em;
+    background-color: #ffffff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    color: blue;
+    box-shadow: 0 0 1em rgb(1, 17, 39, 0.25);
+    cursor: pointer;
+    border-radius: 50%;
+}
+button#next{
+    right: -1.1em;
+
+}
+button#prev{
+    left: -1.1em;
+}
+/* Testimonial Slider section end */
